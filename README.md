@@ -24,11 +24,6 @@ cd ..
 python -m pip install -e detectron2
 ```
 
-### Checkout to aerial view branch
-```
-git checkout -t origin/aerial_view
-```
-
 ### Original mask r-cnn demo
 
 - Download pretrained model from detectron2 model zoo: https://github.com/facebookresearch/detectron2/blob/master/MODEL_ZOO.md
