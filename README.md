@@ -33,12 +33,6 @@ python -m pip install -e detectron2
 - Run in project root: ```python scripts/tests/standard_rcnn_detector_test.py```
 - Note. Config file should be compatible with model, check ```def setup_cfg()``` function
 
-### Fine-tuned mask r-cnn demo
-
-- Download fine-tuned model based on mask r-cnn R50-FPN: https://drive.google.com/file/d/1YxKlCyeFT8rbEyv39vYDYXGtclkaz4b3/view?usp=sharing
-- Put it in ```rcnn_tracker/pretrained/mask_rcnn_R50_FPN_aerial/model.pth```
-- Run in project root: ```python scripts/tests/aerial_view_test.py```
-
 ### Training (fine-tuning on UAV-benchmark)
 
 - UAV-benchmark project site: https://sites.google.com/site/daviddo0323/projects/uavdt
